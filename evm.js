@@ -1,9 +1,9 @@
 'use strict';
 const { ethers } = require("ethers");
 
-const faucets = require('../contracts/faucets.json');
-const contractAbi = require('../contracts/abi/faucet.json');
-const tokens = require('../contracts/tokens.json');
+const faucets = require('./contracts/faucets.json');
+const contractAbi = require('./contracts/abi/faucet.json');
+const tokens = require('./contracts/tokens.json');
 
 async function requestFunds(token, address) {
     // console.log('token, address:', token, address);
