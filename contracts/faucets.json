@@ -1,26 +1,5 @@
 {
-    "WEN": {
-        "address": "0x9632FCbB55019DB443BdD7D1A1639Da2140A23bb"
-    },
-    "MOON": {
-        "address": "0xD788CE108BBF7E8F9ba08c33199454046c833e53"
-    },
-    "fBTC": {
-        "address": "0x31f4ac4FE8B62Ab45c7089Cf6bfAc344F27dC78A"
-    },
-    "fETH": {
-        "address": "0xcc90B0D1180078179245713eF70C606dEcBf602b"
-    },
-    "fAVAX": {
-        "address": "0x4716B8EaaDCb41dec89f16f26F2Ef5aa0cE6ae04"
-    },
-    "fUSDT": {
-        "address": "0xE596B1f57269fa246631026109221601DE109526"
-    },
-    "fUSDC": {
-        "address": "0xef3547b9B9E00d7d1f804fC5972f2494e14bf2BF"
-    },
-    "fMIOTA": {
-        "address": "0x5fEe1f9Fe05eFA6cF81F5C82261cB5e12526b177"
+    "Z": {
+        "address": "0x43D1bD5dd7e41796B5eC7D45fd030Dc9096b22e1"
     }
 }

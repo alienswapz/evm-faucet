@@ -16,6 +16,16 @@ module.exports = {
       url: SHIMMEREVM_JSONRPC || "https://json-rpc.evm.testnet.shimmer.network",
       chainId: SHIMMEREVM_CHAINID ? parseInt(SHIMMEREVM_CHAINID) : 1073,
       accounts: [ PRIVATE_KEY ]
+    },
+    Supernova: {
+      url: "https://rpc.novascan.io",
+      chainId: 73405,
+      accounts: [ PRIVATE_KEY ]
+    },
+    Sepolia: {
+      url: "https://rpc.sepolia.org",
+      chainId: 11155111,
+      accounts: [ PRIVATE_KEY ]
     }
   },
   etherscan: {
@@ -27,7 +37,7 @@ module.exports = {
       {
         apikey: "no-api-key-required",
         network: "ShimmerEVMTestnet",
-        chainId: SHIMMEREVM_CHAINID ? parseInt(SHIMMEREVM_CHAINID) : 1073,
+        chainId: 1073,
         urls: {
           apiURL: "https://explorer.evm.testnet.shimmer.network/api",
           browserURL: "https://explorer.evm.testnet.shimmer.network/"

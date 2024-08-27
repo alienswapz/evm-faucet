@@ -49,7 +49,7 @@ async function main() {
         const { address: initialTokenAddress, decimals } = tokenData;
 
         const txnResponse = await factoryContract.createTokenAndFaucet(
-            "Testnet "+ name,
+            name,
             name,
             decimals,
             faucetAdminAddress
