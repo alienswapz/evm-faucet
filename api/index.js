@@ -32,10 +32,11 @@ app.use(queryParser(
 app.engine('ejs', require('ejs-locals'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
+app.set('statics', __dirname + '/statics');
 
 app.use('/static', express.static('statics'));
 
-const faucets = require('./contracts/faucets.json');
+const faucets = require('../contracts/faucets.json');
 
 app.get('/', function(req, res) {
     let tokens = Object.keys(faucets);

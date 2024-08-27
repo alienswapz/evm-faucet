@@ -1,11 +1,11 @@
 'use strict';
 
 const shimmerevm = {
-    chainName: 'ShimmerEVM Testnet',
-    chainId: 1073,
-    rpcUrl: 'https://json-rpc.evm.testnet.shimmer.network',
-    blockExplorerUrl: 'https://explorer.evm.testnet.shimmer.network/',
-    currency: 'SMR',
+    chainName: 'Supernova',
+    chainId: 73405,
+    rpcUrl: 'https://rpc.novascan.io',
+    blockExplorerUrl: 'https://novascan.io',
+    currency: 'xZNN',
     decimal: 18
 }
 
@@ -54,9 +54,9 @@ $('#btn-token').click(async function(e) {
     }
 });
 
-$('#add-to-metamask').click(async function(e) {
+$('#btn-evm').click(async function(e) {
     e.preventDefault();
-    console.log('Adding Shimmer to Metamask...');
+    console.log('Adding Supernova to Metamask...');
     let hexParsedChainId = parseChainId(shimmerevm.chainId);
 
     try {
